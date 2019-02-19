@@ -8,6 +8,7 @@
  *
  * @package Strapped
  */
+
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -16,8 +17,6 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-
-<div class="container">
 <?php wp_head(); ?>
 </head>
 
@@ -60,6 +59,6 @@
       </div>           
     </nav>
   </header><!-- #masthead -->
-</div>	
 
+  <div class="container">
 	<div id="content" class="site-content">

@@ -1,5 +1,3 @@
-@import "vars/variables-site";
-@import "bootstrap";
 /*!
 Theme Name: Strapped
 Theme URI: http://underscores.me/
@@ -23,6 +21,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
 
 
+@import "vars/variables-site";
+@import "bootstrap";
+
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -38,6 +39,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
+
 @import "mixins/mixins-master";
 
 /*--------------------------------------------------------------
